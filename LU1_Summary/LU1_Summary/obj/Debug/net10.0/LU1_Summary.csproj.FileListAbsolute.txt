@@ -1,0 +1,14 @@
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\bin\Debug\net10.0\LU1_Summary.exe
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\bin\Debug\net10.0\LU1_Summary.deps.json
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\bin\Debug\net10.0\LU1_Summary.runtimeconfig.json
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\bin\Debug\net10.0\LU1_Summary.dll
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\bin\Debug\net10.0\LU1_Summary.pdb
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\obj\Debug\net10.0\LU1_Summary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\obj\Debug\net10.0\LU1_Summary.AssemblyInfoInputs.cache
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\obj\Debug\net10.0\LU1_Summary.AssemblyInfo.cs
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\obj\Debug\net10.0\LU1_Summary.csproj.CoreCompileInputs.cache
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\obj\Debug\net10.0\LU1_Summary.dll
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\obj\Debug\net10.0\refint\LU1_Summary.dll
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\obj\Debug\net10.0\LU1_Summary.pdb
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\obj\Debug\net10.0\LU1_Summary.genruntimeconfig.cache
+C:\Users\tamolefe\source\repos\LU1_Summary\LU1_Summary\obj\Debug\net10.0\ref\LU1_Summary.dll
