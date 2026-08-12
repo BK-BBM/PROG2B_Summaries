@@ -11,7 +11,7 @@ Create a breakpoint at this line:
 double result = 0;
 ```
 <br/>
-Then when execution stops, click on `Debug`>`Windows`>`Threads` <br/>
+Then when execution stops, click on <code>Debug</code>><code>Windows</code>><code>Threads</code> <br/>
 You should see the main thread and other threads that run parallel to it as output is displayed on the console window.<br/>
 
 ## Async Demo (12 on the menu)
@@ -21,7 +21,7 @@ Create a breakpoint at this line:
 string[] pages = await Task.WhenAll(download1, download2, download3);
 ```
 <br/>
-Then when execution stops, click on `Debug`>`Windows`>`Threads` <br/>
+Then when execution stops, click on <code>Debug</code>><code>Windows</code>><code>Threads</code> <br/>
 You should see the main thread and other threads that are spawned as a result of asynchronous processing.<br/>
 This is the goal, to demonstrate that processes don't lock/get block like they would if it was synchronous processes. 
 
