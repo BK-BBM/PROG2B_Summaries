@@ -1,5 +1,5 @@
-# PROG2B_LU1_Summary
-Runnable version of code for all the concepts discussed in LU1 (LO1 - LO11) 
+# PROG2B_Summaries
+Runnable version of code for all the concepts discussed in class
 
 
 # NOTE
@@ -26,3 +26,39 @@ You should see the main thread and other threads that are spawned as a result of
 This is the goal, to demonstrate that processes don't lock/get block like they would if it was synchronous processes. 
 
 ## LO12: The main difference between Multi-threaded, Parallel and Async programming 
+
+### What is Multithreading? <br/>
+Multithreading is the ability of a program to execute multiple threads.<br/>
+Different threads can perform different tasks simultaneously.<br/>
+On a multi-core CPU:
+* Threads can run on different cores at the same time.
+Benefits:
+Faster execution
+Better CPU utilisation
+Improved application responsiveness
+### Concurrency
+Concurrency means multiple tasks make progress during overlapping time periods.
+Tasks do not have to execute simultaneously.
+A single-core processor achieves concurrency using time slicing.
+The CPU rapidly switches between tasks, giving the appearance that they run together.
+Key Point
+
+Concurrency is about managing multiple tasks efficiently.
+### Parallelism
+Parallelism means multiple tasks execute at exactly the same time.
+Requires multiple CPU cores (or processors).
+Each core executes a different thread simultaneously.
+Key Point
+
+Parallelism is about doing multiple tasks at the same time.
+### Concurrency vs Parallelism
+#### Concurrency
+
+Tasks overlap.
+Can occur on a single CPU core.
+Achieved through time slicing.
+#### Parallelism
+
+Tasks execute simultaneously.
+Requires multiple CPU cores.
+Improves performance by sharing work across cores.
