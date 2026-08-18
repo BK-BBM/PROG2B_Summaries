@@ -1,0 +1,29 @@
+﻿@model Tasks.Models.TaskItem
+@{
+    ViewData["Title"] = "Edit Task";
+}
+
+<div class="container mt-4">
+    <h2>Edit Task</h2>
+    <form asp-action="Edit" method="post">
+        <div class="mb-3">
+            <label asp-for="Title" class="form-label">Task</label>
+            <input asp-for="Title" class="form-control" placeholder="Title" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+            <div asp-validation-summary="ModelOnly" class="text-danger">
+            </div>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label">Description</label>
+            <input asp-for="Description" class="form-control" placeholder="Description" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="DueDate" class="form-label">Due Date</label>
+            <input asp-for="DueDate" class="form-control" type="date" />
+            <span asp-validation-for="DueDate" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Save Task</button>
+        <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+    </form>
+</div>

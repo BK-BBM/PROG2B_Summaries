@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|c:\\users\\tamolefe\\source\\repos\\tasks\\tasks\\views\\task\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|solutionrelative:tasks\\views\\task\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|c:\\users\\tamolefe\\source\\repos\\tasks\\tasks\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|solutionrelative:tasks\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|c:\\users\\tamolefe\\source\\repos\\tasks\\tasks\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|solutionrelative:tasks\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|c:\\users\\tamolefe\\source\\repos\\tasks\\tasks\\views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|solutionrelative:tasks\\views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|c:\\users\\tamolefe\\source\\repos\\tasks\\tasks\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|solutionrelative:tasks\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|c:\\users\\tamolefe\\source\\repos\\tasks\\tasks\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|solutionrelative:tasks\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|c:\\users\\tamolefe\\source\\repos\\tasks\\tasks\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|solutionrelative:tasks\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|c:\\users\\tamolefe\\source\\repos\\tasks\\tasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA3CBC35-E0CA-3092-AE24-B470A9E4772C}|Tasks\\Tasks.csproj|solutionrelative:tasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Tasks\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Tasks\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAqwMYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T13:27:27.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Views\\Task\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Tasks\\Views\\Task\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Views\\Task\\Delete.cshtml",
+              "RelativeToolTip": "Tasks\\Views\\Task\\Delete.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T13:44:24.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Views\\Task\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Tasks\\Views\\Task\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Views\\Task\\Edit.cshtml",
+              "RelativeToolTip": "Tasks\\Views\\Task\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T13:18:19.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Program.cs",
+              "RelativeDocumentMoniker": "Tasks\\Program.cs",
+              "ToolTip": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Program.cs",
+              "RelativeToolTip": "Tasks\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T13:13:55.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Tasks\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Tasks\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T11:27:38.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Views\\Task\\Create.cshtml",
+              "RelativeDocumentMoniker": "Tasks\\Views\\Task\\Create.cshtml",
+              "ToolTip": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Views\\Task\\Create.cshtml",
+              "RelativeToolTip": "Tasks\\Views\\Task\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-07T13:52:55.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Views\\Task\\Index.cshtml",
+              "RelativeDocumentMoniker": "Tasks\\Views\\Task\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Views\\Task\\Index.cshtml",
+              "RelativeToolTip": "Tasks\\Views\\Task\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-06T13:47:30.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Tasks\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\tamolefe\\source\\repos\\Tasks\\Tasks\\Models\\TaskItem.cs",
+              "RelativeToolTip": "Tasks\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T13:28:28.036Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

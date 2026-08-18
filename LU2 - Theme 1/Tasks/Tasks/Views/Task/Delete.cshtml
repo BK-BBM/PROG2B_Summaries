@@ -1,0 +1,48 @@
+﻿@model Tasks.Models.TaskItem;
+
+@* Comments will be on only one razor page because this is just html
+   and we're using bootstrap
+*@
+
+@{
+    ViewData["Title"] = "Delete Task";
+
+    /*The line above just sets the title of our page on the browser.
+     * It is the same as <title>Delete Task </title>
+     * Normally we'd have this on the GET action method and
+     * ViewData would pass it through to the View from our controller.
+     * 
+     * Then we would just call : <title>@ViewData["Title"]</title>
+     * */
+}
+
+<div class="container mt-4">
+    <div class="card border-danger max-width-md">
+        <div class="card-header bg-danger text-white">
+            <h2>Delete Task</h2>
+        </div>
+
+        <div class="card-body">
+            <p>Are you sure you want to delete this task?</p>
+            
+            @* dl is a descprition list
+               dt-> description term | the title 
+               dd -> description details | the actual item we want displayed on the dl
+            *@
+            <dl class="row">
+                <dt class="col-sm-3">Task</dt>
+                <dd>@Model.Title</dd>
+                <dt>Description</dt>
+                <dd>@Model.Description</dd>
+                <dt>Due Date</dt>
+                <dd>@Model.DueDate.ToShortDateString()</dd>
+            </dl>
+            <form asp-action="Delete" method="post">
+                @* here's that form action where we put our action methods *@
+                <input type="hidden" asp-for="Id"/>
+                <button type="submit" class="btn btn-danger">Confirm Delete</button>
+                <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>
