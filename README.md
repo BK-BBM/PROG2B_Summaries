@@ -2,7 +2,7 @@
 Runnable version of code for all the concepts discussed in class
 
 
-# NOTE
+## LU1 (Note the following while Running LU1)
 
 ## Parallel Execution Demo (11 on the menu)
 To "visually see the method **_RunParallelDemo()_** <br/>
@@ -63,3 +63,6 @@ Achieved through time slicing.
 Tasks execute simultaneously.<br/>
 Requires multiple CPU cores. <br/>
 Improves performance by sharing work across cores.
+
+
+# LU2 ASP.NET Core Web Development
