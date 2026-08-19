@@ -31,34 +31,35 @@ This is the goal, to demonstrate that processes don't lock/get block like they w
 Multithreading is the ability of a program to execute multiple threads.<br/>
 Different threads can perform different tasks simultaneously.<br/>
 On a multi-core CPU:
-* Threads can run on different cores at the same time.
+* Threads can run on different cores at the same time. <br/>
+
 Benefits:
-Faster execution
-Better CPU utilisation
-Improved application responsiveness
+* Faster execution
+* Better CPU utilisation
+* Improved application responsiveness <br/>
 ### Concurrency
-Concurrency means multiple tasks make progress during overlapping time periods.
-Tasks do not have to execute simultaneously.
-A single-core processor achieves concurrency using time slicing.
-The CPU rapidly switches between tasks, giving the appearance that they run together.
+Concurrency means multiple tasks make progress during overlapping time periods.<br/>
+Tasks do not have to execute simultaneously.<br/>
+A single-core processor achieves concurrency using time slicing.<br/>
+The CPU rapidly switches between tasks, giving the appearance that they run together. <br/>
 Key Point
 
-Concurrency is about managing multiple tasks efficiently.
+* Concurrency is about managing multiple tasks efficiently.
 ### Parallelism
-Parallelism means multiple tasks execute at exactly the same time.
-Requires multiple CPU cores (or processors).
-Each core executes a different thread simultaneously.
+Parallelism means multiple tasks execute at exactly the same time. <br/>
+Requires multiple CPU cores (or processors). <br/>
+Each core executes a different thread simultaneously. <br/>
 Key Point
 
-Parallelism is about doing multiple tasks at the same time.
+* Parallelism is about doing multiple tasks at the same time.
 ### Concurrency vs Parallelism
 #### Concurrency
 
-Tasks overlap.
-Can occur on a single CPU core.
+Tasks overlap.<br/>
+Can occur on a single CPU core.<br/>
 Achieved through time slicing.
 #### Parallelism
 
-Tasks execute simultaneously.
-Requires multiple CPU cores.
+Tasks execute simultaneously.<br/>
+Requires multiple CPU cores. <br/>
 Improves performance by sharing work across cores.
