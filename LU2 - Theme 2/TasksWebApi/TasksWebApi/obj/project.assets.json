@@ -3557,11 +3557,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tamolefe\\source\\repos\\TasksWebApi\\TasksWebApi\\TasksWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApi\\TasksWebApi.csproj",
       "projectName": "TasksWebApi",
-      "projectPath": "C:\\Users\\tamolefe\\source\\repos\\TasksWebApi\\TasksWebApi\\TasksWebApi.csproj",
+      "projectPath": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApi\\TasksWebApi.csproj",
       "packagesPath": "C:\\Users\\tamolefe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tamolefe\\source\\repos\\TasksWebApi\\TasksWebApi\\obj\\",
+      "outputPath": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

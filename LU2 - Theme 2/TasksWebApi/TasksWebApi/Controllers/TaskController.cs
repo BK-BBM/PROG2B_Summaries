@@ -6,7 +6,7 @@ using TasksWebApi.Entities;
 
 namespace TasksWebApi.Controllers
 {
-    [ApiController] 
+    [ApiController]
     /*this annotation enables model validation automatically.
      * so, even if we didn't make use of the [Required] annotation in our Entity (TaskItem.cs)
      * it would still validate against empty values
@@ -56,7 +56,7 @@ namespace TasksWebApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<TaskItemDto>> GetTask(int id)
         {
-           var item = await _context.Items.FindAsync(id);
+            var item = await _context.Items.FindAsync(id);
 
             if (item == null) {
                 return NotFound();//add your message
@@ -72,7 +72,7 @@ namespace TasksWebApi.Controllers
             };
 
             return Ok(itemDto);
-            
+
         }
 
         [HttpPost]
@@ -99,11 +99,34 @@ namespace TasksWebApi.Controllers
                 DueDate = item.DueDate,
             };
 
-            return CreatedAtAction(nameof(CreateTask),new {Id = item.Id},output);
+            return CreatedAtAction(nameof(CreateTask), new { Id = item.Id }, output);
             /*this returns HTTP 201 = created. if there are problems
              * the program will throw an error before this line is executed
              * this line only gets executed if task creation was a success
-             */ 
+             */
         }
+
+        //Exercises to try on your own
+
+        //1. Update method
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateTask(int id, UpdateTaskItemDto updateTask)
+        {
+            //type method logic 
+
+            return NoContent();
+        }
+
+        //2. Delete method
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteTask(int id)
+        {
+            //type method logic 
+
+            return NoContent();
+        } 
+
     }
 }

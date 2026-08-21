@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tamolefe\\source\\repos\\TasksWebApi\\",
+  "WorkspaceRootPath": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|c:\\users\\tamolefe\\source\\repos\\taskswebapi\\taskswebapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|solutionrelative:taskswebapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|c:\\users\\tamolefe\\downloads\\summaries\\prog2b_lu1_summary\\lu2 - theme 2\\taskswebapi\\taskswebapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|solutionrelative:taskswebapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|c:\\users\\tamolefe\\source\\repos\\taskswebapi\\taskswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|c:\\users\\tamolefe\\downloads\\summaries\\prog2b_lu1_summary\\lu2 - theme 2\\taskswebapi\\taskswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|solutionrelative:taskswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|c:\\users\\tamolefe\\source\\repos\\taskswebapi\\taskswebapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|solutionrelative:taskswebapi\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|c:\\users\\tamolefe\\downloads\\summaries\\prog2b_lu1_summary\\lu2 - theme 2\\taskswebapi\\taskswebapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|solutionrelative:taskswebapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,11 +30,24 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApi\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "TasksWebApi\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApi\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "TasksWebApi\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAuwH0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T12:12:18.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tamolefe\\source\\repos\\TasksWebApi\\TasksWebApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApi\\Program.cs",
               "RelativeDocumentMoniker": "TasksWebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\tamolefe\\source\\repos\\TasksWebApi\\TasksWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApi\\Program.cs",
               "RelativeToolTip": "TasksWebApi\\Program.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -44,23 +57,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Users\\tamolefe\\source\\repos\\TasksWebApi\\TasksWebApi\\Controllers\\TaskController.cs",
-              "RelativeDocumentMoniker": "TasksWebApi\\Controllers\\TaskController.cs",
-              "ToolTip": "C:\\Users\\tamolefe\\source\\repos\\TasksWebApi\\TasksWebApi\\Controllers\\TaskController.cs",
-              "RelativeToolTip": "TasksWebApi\\Controllers\\TaskController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwCYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-19T12:12:18.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\tamolefe\\source\\repos\\TasksWebApi\\TasksWebApi\\Data\\DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApi\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "TasksWebApi\\Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\tamolefe\\source\\repos\\TasksWebApi\\TasksWebApi\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApi\\Data\\DataContext.cs",
               "RelativeToolTip": "TasksWebApi\\Data\\DataContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
