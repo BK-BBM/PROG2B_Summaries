@@ -16,6 +16,21 @@ namespace TasksWebApi.Controllers
     {
         private readonly DataContext _context;
 
+
+        /*26/08/2026: UserAuth using Session Management
+         "Session Variables" 
+         SessionKey to store session data on the server
+         and Cookie to store preferences on the user's computer /browser.
+
+         We're able to do this primarily because of 
+
+         builder.Services.AddDistributedMemoryCache();  in Program.cs
+         */
+        private const string AuthSessionKey = "UserSession";
+        private const string AuthCookie = "UserCookie";
+
+        
+
         /*This constructor here, is an example of Dependency Injection!!!
          We build the DataContext in Program.cs class:
          
@@ -34,9 +49,90 @@ namespace TasksWebApi.Controllers
             _context = context;
         }
 
+        
+        
+        //Login methods : 26/08/2026
+
+
+        /* Class Exercise: 26/08/2026
+         * 
+         * Add a secondary user, that is also able to login,
+         * View and manage tasks except for deleting.
+         * 
+         */
+
+        [HttpPost("login")]
+        public IActionResult Login([FromBody] LoginDto loginDto)
+        {
+            /*To login we normally get our username and password combo
+             * from the DB and pass that info via the LoginDto 
+             * (Values hardcoded for demo + we didn't have time
+             * to create another DBSet and link User to TaskItems)
+             
+               
+               After getting the login details, we store them in our session variables
+               using HttpContext (HttpContext is responsible for storing session data
+               as well as sending info between the server and client)
+
+               Server = our Web API
+               Client = Wep app on a user's browser
+               
+               The HttpContext.Response. is what our Web API sends back to the client.
+               The client will send HttpContext.Request (if it wants something) 
+              
+               Then we set the cookie options.
+               
+               
+             */
+            if (loginDto.Username == "admin" && loginDto.Password == "Admin123"
+                //the line below is part of my class excercise attempt.
+                || loginDto.Username == "Taelo" && loginDto.Password == "Admin123")
+            {
+                HttpContext.Session.SetString(AuthSessionKey, loginDto.Username);
+
+                HttpContext.Response.Cookies.Append(AuthCookie, loginDto.Username,
+                    new CookieOptions
+                    {
+                        Expires = DateTimeOffset.UtcNow.AddMinutes(5),
+                        HttpOnly = true,
+                        Secure = true,
+                        SameSite = SameSiteMode.Strict
+                    });
+
+                return Ok(new { Message = "Login successful"+
+                
+                    "Welcome back " + loginDto.Username
+                });
+            }
+
+            return Unauthorized("Invalid credentials");
+        }
+ 
+        [HttpPost("logout")]
+        public IActionResult Logout()
+        {
+            /* We delete all session variables.
+               From the server and client.
+             */
+            HttpContext.Session.Clear();
+
+            HttpContext.Response.Cookies.Delete(AuthCookie);
+
+            return Ok(new { Message = "Logged out successfully" });
+        }
+
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TaskItemDto>>> GetTasks()
         {
+            var sessionUser = HttpContext.Session.GetString(AuthSessionKey);
+            var userCookie = HttpContext.Request.Cookies[AuthCookie];
+
+            if (string.IsNullOrEmpty(sessionUser) || string.IsNullOrEmpty(userCookie))
+            {
+                return Unauthorized("Please login first");
+            }
+
             var tasks = await _context.Items
             .Select(item => new TaskItemDto
             {
@@ -56,6 +152,15 @@ namespace TasksWebApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<TaskItemDto>> GetTask(int id)
         {
+            /*check if user's logged in. This logic is repeated across our Http endpoints.
+             * The AuthSessionKey will store the username (either admin or Taelo in my case)
+             */
+
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString(AuthSessionKey)))
+            {
+                return Unauthorized("You need to login first");
+            }
+
             var item = await _context.Items.FindAsync(id);
 
             if (item == null) {
@@ -79,6 +184,11 @@ namespace TasksWebApi.Controllers
         public async Task<ActionResult<TaskItemDto>>
             CreateTask(CreateTaskItemDto createTaskDto)
         {
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString(AuthSessionKey)))
+            {
+                return Unauthorized("You need to login first");
+            }
+
             var item = new TaskItem
             {
                 Title = createTaskDto.Title,
@@ -113,7 +223,31 @@ namespace TasksWebApi.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateTask(int id, UpdateTaskItemDto updateTask)
         {
-            //type method logic 
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString(AuthSessionKey)))
+            {
+                return Unauthorized("You need to login first");
+            }
+
+            //type method logic  | Try it yourself exercise
+            var item = await _context.Items.FindAsync(id);
+            if (item == null)
+            {
+                return NotFound("Item is not found");
+            }
+
+            item.Title = updateTask.Title;
+            item.Description = updateTask.Description;
+            item.isComplete = updateTask.isComplete;
+            item.DueDate = updateTask.DueDate;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+
+            }
 
             return NoContent();
         }
@@ -123,9 +257,58 @@ namespace TasksWebApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTask(int id)
         {
-            //type method logic 
+            /* Normal logic to check if user is signed in (before class exercise)
+             * 
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString(AuthSessionKey)))
+            {
+                return Unauthorized("You need to login first");
+            }
+            
+             */
 
-            return NoContent();
+            /*class exercise attempt 
+             * 
+             * refactored the code so I can check if the logged in user is admin or not.
+             * if not admin, then prevent deleting.
+             * 
+             * There are a few ways to attempt this, some people still used 
+             *  Unathorized -> throwing a 401.
+             *  
+             *  I wanted to throw a 403 (Forbidden) because our user is 
+             *  authorized to use the app, they're just not allowed (Forbidden) to delete
+             *  because they don't have permissions.
+             */
+            string? currentUser = HttpContext.Session.GetString(AuthSessionKey);
+            if (string.IsNullOrEmpty(currentUser))
+            {
+                return Unauthorized("You need to login first");
+            }
+
+            //prevent normal user from deleting 
+            if (currentUser != "admin")
+            {
+                //return Forbid("Only admins can delete tasks");
+                /*return Forbid was giving me an HTTP500 error, because
+                 * I'm not using the built-in Authentication
+                 
+                 Since we're using IActionResult and we can set different 
+                 reponse and status codes, I opted for setting a StatusCode instead.
+                 */
+                return StatusCode(403, "Only admins can delete tasks");
+            }
+         
+            //type method logic | Try it yourself exercise.
+            var item = await _context.Items.FindAsync(id);
+            if (item == null)
+            {
+                return NotFound("Item not found");
+            }
+            _context.Items.Remove(item);
+
+            await _context.SaveChangesAsync();
+
+           return NoContent();
+            
         } 
 
     }
