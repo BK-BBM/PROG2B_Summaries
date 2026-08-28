@@ -126,22 +126,6 @@
   },
   {
     "ContainingType": "TasksWebApi.Controllers.TaskController",
-    "Method": "LoginUser",
-    "RelativePath": "api/Task/login/user",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "loginDto",
-        "Type": "TasksWebApi.DTOs.LoginDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TasksWebApi.Controllers.TaskController",
     "Method": "Logout",
     "RelativePath": "api/Task/logout",
     "HttpMethod": "POST",
