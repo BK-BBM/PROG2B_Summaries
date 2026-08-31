@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="TasksWebApi/TasksWebApi.csproj" />
+  <Project Path="TasksWebApp/TasksWebApp.csproj" Id="e6408f0d-32dd-468d-9384-b3d71e79a61d" />
 </Solution>
