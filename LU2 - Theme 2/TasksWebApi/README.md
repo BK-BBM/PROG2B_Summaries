@@ -64,3 +64,6 @@ var tasks = await response.Content.ReadFromJsonAsync<IEnumerable<TaskItemDto>>()
 The **PostAsJsonAsyn()** method converts C# objects into JSON text (in the line above, the login dto object would be serialized as JSON text) [Read More](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.json.httpclientjsonextensions.postasjsonasync?view=net-11.0-pp) <br>
 The **ReadFromJsonAsync()** method reads JSON text from the api (the response) and converts it to a C# object (in the example above, the collection of TaskItemDto will be deserialized into C# objects) 
 [Read More](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.json.httpcontentjsonextensions.readfromjsonasync?view=net-11.0-pp)
+
+## [Class Recording](https://youtu.be/YuwTwWOnpYc)
+
