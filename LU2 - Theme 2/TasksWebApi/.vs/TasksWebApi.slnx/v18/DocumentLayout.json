@@ -11,6 +11,14 @@
       "RelativeMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|solutionrelative:taskswebapi\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E6408F0D-32DD-468D-9384-B3D71E79A61D}|TasksWebApp\\TasksWebApp.csproj|c:\\users\\tamolefe\\downloads\\summaries\\prog2b_lu1_summary\\lu2 - theme 2\\taskswebapi\\taskswebapp\\models\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6408F0D-32DD-468D-9384-B3D71E79A61D}|TasksWebApp\\TasksWebApp.csproj|solutionrelative:taskswebapp\\models\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6408F0D-32DD-468D-9384-B3D71E79A61D}|TasksWebApp\\TasksWebApp.csproj|c:\\users\\tamolefe\\downloads\\summaries\\prog2b_lu1_summary\\lu2 - theme 2\\taskswebapi\\taskswebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6408F0D-32DD-468D-9384-B3D71E79A61D}|TasksWebApp\\TasksWebApp.csproj|solutionrelative:taskswebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E6408F0D-32DD-468D-9384-B3D71E79A61D}|TasksWebApp\\TasksWebApp.csproj|c:\\users\\tamolefe\\downloads\\summaries\\prog2b_lu1_summary\\lu2 - theme 2\\taskswebapi\\taskswebapp\\views\\taskswebapp\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E6408F0D-32DD-468D-9384-B3D71E79A61D}|TasksWebApp\\TasksWebApp.csproj|solutionrelative:taskswebapp\\views\\taskswebapp\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -29,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|c:\\users\\tamolefe\\downloads\\summaries\\prog2b_lu1_summary\\lu2 - theme 2\\taskswebapi\\taskswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C5A9586F-0B0F-D9A8-69AB-5956516E3425}|TasksWebApi\\TasksWebApi.csproj|solutionrelative:taskswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6408F0D-32DD-468D-9384-B3D71E79A61D}|TasksWebApp\\TasksWebApp.csproj|c:\\users\\tamolefe\\downloads\\summaries\\prog2b_lu1_summary\\lu2 - theme 2\\taskswebapi\\taskswebapp\\models\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6408F0D-32DD-468D-9384-B3D71E79A61D}|TasksWebApp\\TasksWebApp.csproj|solutionrelative:taskswebapp\\models\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6408F0D-32DD-468D-9384-B3D71E79A61D}|TasksWebApp\\TasksWebApp.csproj|c:\\users\\tamolefe\\downloads\\summaries\\prog2b_lu1_summary\\lu2 - theme 2\\taskswebapi\\taskswebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6408F0D-32DD-468D-9384-B3D71E79A61D}|TasksWebApp\\TasksWebApp.csproj|solutionrelative:taskswebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,20 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApp\\Views\\TasksWebApp\\Index.cshtml",
-              "RelativeDocumentMoniker": "TasksWebApp\\Views\\TasksWebApp\\Index.cshtml",
-              "ToolTip": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApp\\Views\\TasksWebApp\\Index.cshtml",
-              "RelativeToolTip": "TasksWebApp\\Views\\TasksWebApp\\Index.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-31T13:53:00.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApp\\Views\\TasksWebApp\\Create.cshtml",
               "RelativeDocumentMoniker": "TasksWebApp\\Views\\TasksWebApp\\Create.cshtml",
@@ -75,12 +62,11 @@
               "RelativeToolTip": "TasksWebApp\\Views\\TasksWebApp\\Create.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-31T14:21:06.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-31T14:21:06.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApi\\appsettings.json",
               "RelativeDocumentMoniker": "TasksWebApi\\appsettings.json",
@@ -88,12 +74,11 @@
               "RelativeToolTip": "TasksWebApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-31T14:08:21.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-31T14:08:21.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "TaskItemDto.cs",
               "DocumentMoniker": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApp\\Models\\TaskItemDto.cs",
               "RelativeDocumentMoniker": "TasksWebApp\\Models\\TaskItemDto.cs",
@@ -106,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApp\\Views\\TasksWebApp\\Login.cshtml",
               "RelativeDocumentMoniker": "TasksWebApp\\Views\\TasksWebApp\\Login.cshtml",
@@ -114,18 +99,17 @@
               "RelativeToolTip": "TasksWebApp\\Views\\TasksWebApp\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-31T13:34:13.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-31T13:34:13.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApp\\Program.cs",
               "RelativeDocumentMoniker": "TasksWebApp\\Program.cs",
               "ToolTip": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApp\\Program.cs",
               "RelativeToolTip": "TasksWebApp\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBAAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-31T13:32:11.901Z",
               "EditorCaption": ""
@@ -151,7 +135,7 @@
               "RelativeDocumentMoniker": "TasksWebApp\\Controllers\\TasksWebAppController.cs",
               "ToolTip": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApp\\Controllers\\TasksWebAppController.cs",
               "RelativeToolTip": "TasksWebApp\\Controllers\\TasksWebAppController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowDoAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-31T13:27:35.557Z",
               "EditorCaption": ""
@@ -159,6 +143,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApp\\Views\\TasksWebApp\\Index.cshtml",
+              "RelativeDocumentMoniker": "TasksWebApp\\Views\\TasksWebApp\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApp\\Views\\TasksWebApp\\Index.cshtml",
+              "RelativeToolTip": "TasksWebApp\\Views\\TasksWebApp\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-31T13:53:00.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\tamolefe\\Downloads\\Summaries\\PROG2B_LU1_Summary\\LU2 - Theme 2\\TasksWebApi\\TasksWebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TasksWebApp\\Views\\Shared\\_Layout.cshtml",
@@ -166,8 +162,7 @@
               "RelativeToolTip": "TasksWebApp\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-31T14:09:43.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-31T14:09:43.565Z"
             }
           ]
         }
