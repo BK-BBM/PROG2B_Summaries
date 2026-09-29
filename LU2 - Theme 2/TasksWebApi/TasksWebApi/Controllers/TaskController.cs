@@ -84,9 +84,13 @@ namespace TasksWebApi.Controllers
                
                
              */
-            if (loginDto.Username == "admin" && loginDto.Password == "Admin123"
-                //the line below is part of my class excercise attempt.
-                || loginDto.Username == "Taelo" && loginDto.Password == "Admin123")
+            //if (loginDto.Username == "admin" && loginDto.Password == "Admin123"
+            //    //the line below is part of my class excercise attempt.
+            //    || loginDto.Username == "Taelo" && loginDto.Password == "Admin123")
+
+            var users = new[] { "admin", "Taelo" };
+            if(System.Linq.Enumerable.Contains(users,loginDto.Username)
+                && loginDto.Password == "Admin123")
             {
                 HttpContext.Session.SetString(AuthSessionKey, loginDto.Username);
 

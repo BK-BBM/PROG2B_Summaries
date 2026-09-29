@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="TasksWebApi/TasksWebApi.csproj" />
   <Project Path="TasksWebApp/TasksWebApp.csproj" Id="e6408f0d-32dd-468d-9384-b3d71e79a61d" />
+  <Project Path="WebApiTest/WebApiTest.csproj" Id="4c30fc8e-8d96-4e58-ae7d-ba16f6e2a7e3" />
+  <Project Path="WebApixUnitTest/WebApixUnitTest.csproj" Id="2089b77e-d808-407b-86d1-728fddbac483" />
 </Solution>
