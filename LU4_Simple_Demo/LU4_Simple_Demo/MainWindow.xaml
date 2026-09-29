@@ -1,0 +1,29 @@
+﻿<Window x:Class="LU4_Simple_Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LU4_Simple_Demo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="600">
+    <StackPanel Margin="15">
+        <TextBlock Text="Type your name" Margin="0,10,0,5"/>
+        <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" Height="30"/>
+        <TextBlock Text="{Binding NotificationMessage}" Height="15" Margin="0,10,0,5"/>
+        <TextBlock Text="Enter age" Margin="0,10,0,5"/>
+        <TextBox Height="30">
+            <TextBox.Text>
+                <Binding Path="Age" UpdateSourceTrigger="PropertyChanged"
+                         ValidatesOnExceptions="True">
+                    <Binding.ValidationRules>
+                        <local:AgeValidationRule/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            
+        </TextBox>
+        <!--- Fail safe for our Age validation (just in case we can't access  the 
+        AgeValidationRule class -->
+    </StackPanel>
+
+</Window>
