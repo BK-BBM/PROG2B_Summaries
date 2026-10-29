@@ -65,6 +65,7 @@ namespace TasksWebApp.Controllers
 
             var tasks = await response.Content.ReadFromJsonAsync<IEnumerable<TaskItemDto>>();
 
+           // return View(tasks ?? new List<TaskItemDto>());
             return View(tasks);
         }
 
